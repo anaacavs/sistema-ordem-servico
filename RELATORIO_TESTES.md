@@ -39,9 +39,6 @@
 | Excluir cliente temporário sem OS | Criar cliente temporário e executar `DELETE /clientes/2` | `204 No Content`. |
 | Excluir técnico temporário sem OS | Criar técnico temporário e executar `DELETE /tecnicos/2` | `204 No Content`. |
 
-## Observação sobre acentuação
-
-Uma primeira requisição com texto acentuado retornou erro de UTF-8. As requisições seguintes foram enviadas convertendo o JSON explicitamente para UTF-8 e retornaram sucesso. Em algumas respostas, o terminal mostrou acentos com codificação visual incorreta; recomenda-se conferir os nomes e descrições diretamente no pgAdmin antes da entrega.
 
 ## Conclusão
 
